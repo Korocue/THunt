@@ -1,4 +1,4 @@
-T-Hunt-Dev/Suggest.md
+THunt-FrameWork/ChatRoom/Pending.md
 
 # A30（ファイル/フォルダ構成）
 ## リポジトリ直下（運用＝T-Hunt側）
