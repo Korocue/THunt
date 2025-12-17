@@ -1,2 +1,9 @@
 THunt-Framework/ChatRoom/images/
 THunt-Framework/ChatRoom/**/*.png
+# .NET / Visual Studio
+**/bin/
+**/obj/
+.vs/
+*.user
+*.csproj.user
+*.suo

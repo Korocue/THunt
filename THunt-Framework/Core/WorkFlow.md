@@ -1,6 +1,6 @@
 THunt-FrameWork/Core/WorkFlow.md
 
-# T-hunt開発方式
+# THunt-Framework
 
 複数のプロンプトを組み合わせたプロンプト群を利用して
 大規模なプログラムを作る方式
@@ -76,6 +76,7 @@ Q : ChatGPTへの質問
 A : ChatGPTからの返答
 CQ : Codexへの命令案
 CQR : CQに対する、ChatGPTのレビュー
+CDA : CQに対する、Codexの結果表示
 M : メモ（場合によってはChatGPTやCodexに投げる）
 
 ### スクリーンショットについて

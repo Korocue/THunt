@@ -8,9 +8,9 @@ AppPlan.md を “何を作るか” の一次情報として扱い、差分方�
 
 ## 入力
 - App/AppPlan.md
-- THunt-Framework/Core/OverView.cs
-- THunt-Framework/Core/Constitution.cs
-- THunt-Frameeork/Core/WorkFlow.cs
+- THunt-Framework/Core/OverView.md
+- THunt-Framework/Core/Constitution.md
+- THunt-Frameeork/Core/WorkFlow.md
 
 ## 出力フォーマット
 - 編集範囲:/App/フォルダ内の/dev/を除くすべての範囲

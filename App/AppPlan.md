@@ -1,6 +1,4 @@
-App/Dev/AppPlan.md
-
-# Target: Windows Desktop / C#
+﻿# Target: Windows Desktop / C#
 
 # 概要:
 トレジャーハント
