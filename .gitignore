@@ -7,3 +7,4 @@ THunt-Framework/ChatRoom/**/*.png
 *.user
 *.csproj.user
 *.suo
+.aider*
