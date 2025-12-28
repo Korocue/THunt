@@ -1,6 +1,6 @@
 THunt-FrameWork/Core/Overview.md
 
-# T-Hunt開発方式（v.1.b4）
+# T-Hunt開発方式（v.1.b5）
 
 複数のプロンプトを組み合わせたプロンプト群を利用して
 大規模なプログラムを作る方式 / 実験
