@@ -1,1 +1,0 @@
-THunt-FrameWork/Core/Constitution.md

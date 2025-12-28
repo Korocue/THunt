@@ -7,21 +7,32 @@ AppPlan.mdを参考に各プロンプトを実行してください
 AppPlan.md を “何を作るか” の一次情報として扱い、差分方式で育てます。
 
 ## 入力
-- App/AppPlan.md
 - THunt-Framework/Core/Overview.md
-- THunt-Framework/Core/Constitution.md
-- THunt-Framework/Core/Workflow.md
+- THunt-Framework/Core/AGENTS.md
+- App/Dev/AppPlan.md
+- App/Dev/Spec.md
+- App/Dev/UI.md
+- App/Dev/GameBoard.md
 
 ## 出力フォーマット
-- 編集範囲:/App/フォルダ内の/dev/を除くすべての範囲
+- /Dev/を除く/App/内がCodexの主な編集範囲となります。
+- /App/Dev/は編集禁止
+- /App/以外のフォルダは/THunt-Framework/を含め、すべて編集禁止
 - 最後にコミットメッセージ案をお願いします
-  - 現在のバージョンは「1.b2」とします。
+  - 現在のバージョンは「1.b4」とします。
+  - フォーマットを <type> : <section> / <message>とします。
+  - <type>(<section>): <message>とするところを上記のフォーマットに成形してください。 
 
 ## 技術スタック判定
 1) まず AppPlan.md の Target を読む。
 2) 次にリポジトリを見て技術スタックを推測する（Unity / Web / Python / C# など）。
 3) 推測結果が Target と一致する場合のみ作業する。
 4) 一致しない、または判定不能な場合は停止し、矛盾点と必要情報だけを報告する（この段階では編集しない）。
+
+## コメント強化
+リポジトリ内の /THunt-Framework/Core/AGENTS.md 内の「コードレビューと信頼性」に従い
+ユーザーがレビューしやすいように、コメントを利用した高い可読性を保ってください。
+(2重コメントに配慮しつつ、簡潔にお願いします)
 
 # ウィンドウ
 ウィンドウを作ってください
@@ -31,6 +42,6 @@ AppPlan.md を “何を作るか” の一次情報として扱い、差分方�
 インターフェースをUI.mdに従って設置してください。
 既存の親ウィンドウ/レイアウトを尊重し、最小差分でボタンを追加（または再利用）してください
 
-# ステージの配置
-T-Button.mdに従ってステージを配置してください。
+# 盤面の配置
+GameBoard.mdに従って盤面を配置してください。
 既存の親ウィンドウ/レイアウトを尊重し、最小差分でボタンを追加（または再利用）してください
